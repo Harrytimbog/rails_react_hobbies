@@ -4,7 +4,7 @@ puts "Creating seed"
 
 9.times do |i|
   Hobby.create(
-    name: Faker::ProgrammingLanguage.name,
+    name: Faker::Music.genre,
     description: Faker::Restaurant.description,
     instruction: Faker::Food.description
   )
